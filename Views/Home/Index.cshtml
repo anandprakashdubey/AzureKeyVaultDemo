@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<h3>Azure KeyVault Response -</h3> <br />
+@if (ViewData["AzureKeyVaultValue"] != null)
+{
+    <div>@ViewData["AzureKeyVaultValue"]</div>
+}
+else
+{
+    <b>No Data</b>
+}
